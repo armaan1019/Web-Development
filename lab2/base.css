@@ -1,0 +1,49 @@
+.pageH {
+  color: navy;
+  margin: 0.25rem 0;
+}
+ 
+.date {
+  color: #aaa;
+  margin: 5px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  background-color: #ccc;
+  border: 0;
+  padding: 0.1rem 0.5rem; 
+  border-radius: 4px
+}
+
+nav {
+  background-color: turquoise;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+}
+
+.navA {
+  margin: 0 10px;
+  text-decoration: none;
+  color: grey;
+
+}
+
+.tags {
+  display: flex;
+  gap: 15px;
+}
+
+.tags p {
+  background-color: #ccc;
+  height: 30px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}

@@ -1,0 +1,34 @@
+main {
+  max-width: 50%;
+  margin: auto;
+}
+
+.highlight {
+  background-color: turquoise;
+}
+
+article {
+  margin: 2% 0%;
+}
+
+footer {
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.blue {
+  color: blue;
+}
