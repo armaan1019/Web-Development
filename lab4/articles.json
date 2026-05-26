@@ -1,0 +1,38 @@
+[
+  {
+    "id": "how-to-start-coding",
+    "title": "How to Start Coding",
+    "tags": ["Tag 1", "Tag 2", "Tag 3"],
+    "content": "<article><h2>How to Start Coding</h2><p>Coding is easier than it looks. Start with HTML, then move to CSS and JavaScript.</p><p>Practice consistently and build small projects to improve your skills over time.</p></article>"
+  },
+  {
+    "id": "building-your-first-website",
+    "title": "Building Your First Website",
+    "tags": ["Tag 1", "Tag 2", "Tag 3"],
+    "content": "<article><h2>Building Your First Website</h2><p>Learn how to structure a basic website. Then style it using modern CSS techniques.</p><p>Once you understand the basics, try adding JavaScript for interactivity.</p></article>"
+  },
+  {
+    "id": "staying-consistent",
+    "title": "Staying Consistent",
+    "tags": ["Moon", "Tag 2", "Tag 3"],
+    "content": "<article><h2>Staying Consistent</h2><p>Consistency is key when learning new skills. Practice a little every day to improve.</p><p>Small progress each day eventually turns into major improvement.</p></article>"
+  },
+  {
+    "id": "cheese-article",
+    "title": "Staying Consistent",
+    "tags": ["Cheese", "Tag 2", "Tag 3"],
+    "content": "<article><h2>Staying Consistent</h2><p>Consistency is key when learning new skills. Practice a little every day to improve.</p><p>Creating routines helps build momentum and confidence.</p></article>"
+  },
+  {
+    "id": "creatine-article",
+    "title": "Staying Consistent",
+    "tags": ["Creatine", "Tag 2", "Tag 3"],
+    "content": "<article><h2>Staying Consistent</h2><p>Consistency is key when learning new skills. Practice a little every day to improve.</p><p>Dedication and repetition are important for long-term success.</p></article>"
+  },
+  {
+    "id": "daily-practice",
+    "title": "Staying Consistent",
+    "tags": ["Tag 1", "Tag 2", "Tag 3"],
+    "content": "<article><h2>Staying Consistent</h2><p>Consistency is key when learning new skills. Practice a little every day to improve.</p><p>Daily practice creates habits that make learning easier.</p></article>"
+  }
+]
