@@ -3,13 +3,13 @@
   <head>
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/lab4/base.css">
+    <link rel="stylesheet" href="/lab4/index.css">
   </head>
 
   <body>
     <aside class="left">
-      <img src="images/me.JPG" alt="This is going to be a picture of me"><br>
+      <img src="/lab4/images/me.JPG" alt="This is going to be a picture of me"><br>
       <div class="links"> 
         <a href="https://www.linkedin.com/in/armaan-sharma-a1237a296" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/armaan1019" target="_blank"><i class="fa-brands fa-square-github"></i></a>
@@ -25,32 +25,17 @@
     </aside>
 
     <main class="right">
-      <h1 class="pageH">Latest Article Text</h1>
-      <div class="tags">
-        <p>Tag 1</p>
-        <p>Tag 2</p>
-        <p>Tag 3</p>
-      </div>
+      <h1 class="pageH" id="article-title"></h1>
+
+      <div class="tags" id="tags"></div>
+
       <p class="date">Date Written: April 2, 2026</p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
+
+      <article id="content"></article>
+
       <div class="articleL">
-        <a href="articles.html">View all</a>
-        <a class="blue" href="article.html">Continue reading</a>
+        <a href="/lab4/index.php/articles">View all</a>
+        <a class="blue" href="article.html" id="continue-reading">Continue reading</a>
       </div>
     </main>
   </body>
