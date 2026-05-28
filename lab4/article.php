@@ -112,7 +112,7 @@ if($nav) {
     $prevArticle = $articles[$currentIndex - 1];
 
     $prevLink = $dom->createElement("a", "Previous");
-    $prevLink->setAttribute("href", "/lab4/index.php/article?id=" . $prevArticle["id"]);
+    $prevLink->setAttribute("href", "/~asharma13/csen161/lab4/index.php/article?id=" . $prevArticle["id"]);
     $nav->appendChild($prevLink);
   }
 
@@ -125,7 +125,7 @@ if($nav) {
     $nextArticle = $articles[$currentIndex + 1];
 
     $nextLink = $dom->createElement("a", "Next");
-    $nextLink->setAttribute("href", "/lab4/index.php/article?id=" . $nextArticle["id"]);
+    $nextLink->setAttribute("href", "/~asharma13/csen161/lab4/index.php/article?id=" . $nextArticle["id"]);
     $nextLink->setAttribute("class", "blue");
     $nav->appendChild($nextLink);
   }

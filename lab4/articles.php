@@ -29,7 +29,7 @@ foreach($articles as $articleData) {
   $articleDiv->setAttribute("class", "article");
 
   $link = $dom->createElement("a");
-  $link->setAttribute("href", "article.php?id=" . $articleData["id"]);
+  $link->setAttribute("href", "/~asharma13/csen161/lab4/index.php/article?id=" . $articleData["id"]);
 
   $h2 = $dom->createElement("h2", $articleData["title"]);
   

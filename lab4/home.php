@@ -46,7 +46,7 @@ $fragment->appendXML($latestArticle["content"]);
 
 $content->appendChild($fragment);
 
-$continueReading->setAttribute("href", "/lab4/index.php/article?id=" . $latestArticle["id"]);
+$continueReading->setAttribute("href", "/~asharma13/csen161/lab4/index.php/article?id=" . $latestArticle["id"]);
 
 echo $dom->saveHTML();
 
