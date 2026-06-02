@@ -12,3 +12,6 @@ Lab 3: Implemented highlighting functionality and saving user position in articl
 Lab 4: Added PHP to the website to display articles dynamically from the articles.json data.
 
 Lab 5: Used SQLite to store and query for articles rather than using json.
+
+> [!NOTE]
+> The complete project source code is lab 5.
