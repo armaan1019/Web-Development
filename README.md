@@ -1,6 +1,15 @@
 # Web-Development
 SCU coursework for CSEN 161 lab (Web Development lab)
 
+These labs below outline the steps taken to build a full-stack blog website.
+The articles are stores in a json files until SQLite is introduced in lab 5.
+The functionality of the website is as follows:
+
+1) Dynamically display the articles using php.
+2) Searching using tags to find relevant articles.
+3) Routing through index.php to display the relevant file.
+4) JavaScript functionality such as user highlighting and saving user position when reading an article.
+
 The content for this course is as follows:
 
 Lab 1: Use of basic html to layout the format of all web pages.
